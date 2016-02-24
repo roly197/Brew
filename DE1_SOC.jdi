@@ -1,0 +1,16 @@
+<sld_project_info>
+  <project>
+    <hash md5_digest_80b="eca25f382c4bf24f61f0"/>
+  </project>
+  <file_info>
+    <file device="5CSEMA5F31C6" path="DE1_SOC.sof" usercode="0xFFFFFFFF"/>
+  </file_info>
+  <sld_infos>
+    <sld_info hpath="PLLClk:pll0" name="pll0">
+      <assignment_values>
+        <assignment_value text="QSYS_NAME PLLClk HAS_SOPCINFO 1 GENERATION_ID 1456083357"/>
+      </assignment_values>
+      <parameters/>
+    </sld_info>
+  </sld_infos>
+</sld_project_info>

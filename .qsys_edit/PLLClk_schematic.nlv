@@ -1,0 +1,9 @@
+# # File gsaved with Nlview version 6.3.8  2013-12-19 bk=1.2992 VDI=34 GEI=35
+# 
+preplace inst PLLClk -pg 1 -lvl 1 -y 40 -regy -20
+preplace inst PLLClk.pll_0 -pg 1 -lvl 1 -y 30
+preplace netloc EXPORT<net_container>PLLClk</net_container>(SLAVE)PLLClk.pll_0_refclk,(SLAVE)pll_0.refclk) 1 0 1 NJ
+preplace netloc EXPORT<net_container>PLLClk</net_container>(MASTER)PLLClk.pll_0_outclk0,(MASTER)pll_0.outclk0) 1 1 1 N
+preplace netloc EXPORT<net_container>PLLClk</net_container>(SLAVE)pll_0.reset,(SLAVE)PLLClk.pll_0_reset) 1 0 1 NJ
+levelinfo -pg 1 0 90 370
+levelinfo -hier PLLClk 100 130 260

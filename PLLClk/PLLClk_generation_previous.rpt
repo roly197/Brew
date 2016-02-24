@@ -1,0 +1,32 @@
+Info: Starting: Create block symbol file (.bsf)
+Info: qsys-generate /home/quartus/Projects/Brew/7Seg/PLLClk.qsys --block-symbol-file --output-directory=/home/quartus/Projects/Brew/7Seg/PLLClk --family="Cyclone V" --part=5CSEMA5F31C6
+Progress: Loading 7Seg/PLLClk.qsys
+Progress: Reading input file
+Progress: Adding pll_0 [altera_pll 15.1]
+Progress: Parameterizing module pll_0
+Progress: Building connections
+Progress: Parameterizing connections
+Progress: Validating
+Progress: Done reading input file
+Info: PLLClk.pll_0: The legal reference clock frequency is 5.0 MHz..800.0 MHz
+Info: PLLClk.pll_0: Able to implement PLL with user settings
+Info: qsys-generate succeeded.
+Info: Finished: Create block symbol file (.bsf)
+Info: 
+Info: Starting: Create HDL design files for synthesis
+Info: qsys-generate /home/quartus/Projects/Brew/7Seg/PLLClk.qsys --synthesis=VERILOG --output-directory=/home/quartus/Projects/Brew/7Seg/PLLClk/synthesis --family="Cyclone V" --part=5CSEMA5F31C6
+Progress: Loading 7Seg/PLLClk.qsys
+Progress: Reading input file
+Progress: Adding pll_0 [altera_pll 15.1]
+Progress: Parameterizing module pll_0
+Progress: Building connections
+Progress: Parameterizing connections
+Progress: Validating
+Progress: Done reading input file
+Info: PLLClk.pll_0: The legal reference clock frequency is 5.0 MHz..800.0 MHz
+Info: PLLClk.pll_0: Able to implement PLL with user settings
+Info: PLLClk: Generating PLLClk "PLLClk" for QUARTUS_SYNTH
+Info: pll_0: "PLLClk" instantiated altera_pll "pll_0"
+Info: PLLClk: Done "PLLClk" with 2 modules, 3 files
+Info: qsys-generate succeeded.
+Info: Finished: Create HDL design files for synthesis

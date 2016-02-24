@@ -1,0 +1,16 @@
+module bin_to_6x_7seg	(bin);
+
+input	[23:0]	bin;
+
+always @(bin) begin
+
+	bin_to_7seg b7s0 (.bin(bin[3:0]),.seg(HEX0)); 
+	bin_to_7seg b7s1 (.bin(bin[7:4]),.seg(HEX1)); 
+	bin_to_7seg b7s2 (.bin(bin[11:8]),.seg(HEX2)); 
+	bin_to_7seg b7s3 (.bin(bin[15:12]),.seg(HEX3)); 
+	bin_to_7seg b7s4 (.bin(bin[19:16]),.seg(HEX4)); 
+	bin_to_7seg b7s5 (.bin(bin[23:20]),.seg(HEX5));	
+
+end
+
+endmodule
