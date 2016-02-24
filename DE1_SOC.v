@@ -127,7 +127,7 @@ assign rst = !KEY[0];								// need reset signal manual
 assign LEDR = LedCntr[31:22];						// just to visualize the running clock
 //assign result2seg = result_real[25:2];
 
-assign result2seg = SW[9] ? result_real[25:2] : dataa_real[17:2]; //SW9 display 1=result 0=dataa
+assign result2seg = SW[9] ? result_real[23:0] : dataa_real[17:2]; //SW9 display 1=result 0=dataa
 
 PLLClk pll0 (											// PLL to increase the clock speed (>50MHz) 
 	.pll_0_outclk0_clk(CLOCK_ALT), 				// pll_0_outclk0.clk

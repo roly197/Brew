@@ -1,5 +1,5 @@
 Analysis & Synthesis report for DE1_SOC
-Wed Feb 24 21:08:07 2016
+Wed Feb 24 21:32:42 2016
 Quartus Prime Version 15.1.0 Build 185 10/21/2015 SJ Lite Edition
 
 
@@ -58,7 +58,7 @@ agreement for further details.
 +-------------------------------------------------------------------------------+
 ; Analysis & Synthesis Summary                                                  ;
 +---------------------------------+---------------------------------------------+
-; Analysis & Synthesis Status     ; Successful - Wed Feb 24 21:08:07 2016       ;
+; Analysis & Synthesis Status     ; Successful - Wed Feb 24 21:32:42 2016       ;
 ; Quartus Prime Version           ; 15.1.0 Build 185 10/21/2015 SJ Lite Edition ;
 ; Revision Name                   ; DE1_SOC                                     ;
 ; Top-level Entity Name           ; DE1_SOC                                     ;
@@ -664,8 +664,7 @@ Note: In order to hide this table in the UI and the text report file, please set
 ; datab_imag          ; Input  ; Info     ; Stuck at GND                                                                        ;
 ; datab_real[17..9]   ; Input  ; Info     ; Stuck at GND                                                                        ;
 ; result_imag         ; Output ; Info     ; Connected to dangling logic. Logic that only feeds a dangling port will be removed. ;
-; result_real[35..26] ; Output ; Info     ; Connected to dangling logic. Logic that only feeds a dangling port will be removed. ;
-; result_real[1..0]   ; Output ; Info     ; Connected to dangling logic. Logic that only feeds a dangling port will be removed. ;
+; result_real[35..24] ; Output ; Info     ; Connected to dangling logic. Logic that only feeds a dangling port will be removed. ;
 +---------------------+--------+----------+-------------------------------------------------------------------------------------+
 
 
@@ -763,7 +762,7 @@ Note: In order to hide this table in the UI and the text report file, please set
 Info: *******************************************************************
 Info: Running Quartus Prime Analysis & Synthesis
     Info: Version 15.1.0 Build 185 10/21/2015 SJ Lite Edition
-    Info: Processing started: Wed Feb 24 21:07:47 2016
+    Info: Processing started: Wed Feb 24 21:32:22 2016
 Info: Command: quartus_map --read_settings_files=on --write_settings_files=off DE1_SOC -c DE1_SOC
 Warning (20028): Parallel compilation is not licensed and has been disabled
 Info (12021): Found 1 design units, including 1 entities, in source file cookbook/scale_up.v
@@ -1027,8 +1026,8 @@ Info (21057): Implemented 349 device resources after synthesis - the final resou
     Info (21062): Implemented 1 DSP elements
 Info: Quartus Prime Analysis & Synthesis was successful. 0 errors, 139 warnings
     Info: Peak virtual memory: 1383 megabytes
-    Info: Processing ended: Wed Feb 24 21:08:07 2016
+    Info: Processing ended: Wed Feb 24 21:32:42 2016
     Info: Elapsed time: 00:00:20
-    Info: Total CPU time (on all processors): 00:00:29
+    Info: Total CPU time (on all processors): 00:00:28
 
 
